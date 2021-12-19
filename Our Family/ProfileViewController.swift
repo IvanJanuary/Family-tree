@@ -20,15 +20,14 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
         imageView.layer.borderWidth = 3.0
         imageView.layer.borderColor = UIColor.purple.cgColor
+        
         guard let person = person else { return }
         imageView.image = UIImage(named: person.imageName)
         nameLabel.text = person.name
+        locationLabel.text = person.locationText
         
     }
-
     
-    
-
     /*
     // MARK: - Navigation
 

@@ -10,5 +10,6 @@ import Foundation
 struct Person {
     let name: String
     let imageName: String
-    let descriptionText: String
+    let locationText: String
+    let familyMember: String
 }
